@@ -1,0 +1,38 @@
+# Java/Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Environment-specific
+application-local.properties
+application-dev.properties
+application-prod.properties
+*.env
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.factorypath
+.settings/
+.springBeans
+.sts4-cache
+
+# Build directories
+/bin/
+/build/
+
+# macOS
+.DS_Store
+
+# Databases (optional, for H2/SQLite)
+*.db
